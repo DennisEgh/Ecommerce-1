@@ -1,8 +1,10 @@
 import React from 'react';
 import Nav from "./components/nav"
 import Landing from "./components/landing";
-import Highlights from "./components/highlights"
+import Highlights from "./components/highlights";
 import Featured from './components/Featured';
+import Discounted from './components/Discounted';
+import Explore from './components/Explore';
 
 
 const App = () => {
@@ -12,6 +14,8 @@ const App = () => {
             <Landing />
             <Highlights />
             <Featured />
+            <Discounted />
+            <Explore />
         </div>
     );
 }
